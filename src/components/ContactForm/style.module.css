@@ -1,6 +1,6 @@
 .form {
     margin: 0 auto;
-    border: 1px solid rgba(11, 13, 15, 0.15);
+    border: 1px solid rgba(252, 177, 3, 0.15);
     width: 320px;
     padding: 30px;
     display: flex;
@@ -23,13 +23,13 @@
     width: 310px;
     height: 30px;
     border-radius: 8px;
-    border: 2px solid hsl(198, 24%, 63%);
+    border: 2px solid #fcb103;
     outline: none;
     transition: 200ms ease-in;
 }
 
 .input:focus {
-    border-bottom: 4px solid hsl(198, 24%, 63%);
+    border-bottom: 4px solid #fcb103;
     padding-top: 2px;
 }
 

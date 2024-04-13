@@ -36,7 +36,6 @@ class ContactForm extends React.Component {
           <input
             className={contactFormStyles.input}
             type="text"
-            placeholder="Name"
             name="name"
             value={this.state.name}
             onChange={this.handleChange}
@@ -51,7 +50,6 @@ class ContactForm extends React.Component {
           <input
             className={contactFormStyles.input}
             type="tel"
-            placeholder="Number"
             name="number"
             value={this.state.number}
             onChange={this.handleChange}
